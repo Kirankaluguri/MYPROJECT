@@ -18,7 +18,7 @@ def gen_resume(request):
 		graduation = request.POST.get('graduation', '') 
 		college1 = request.POST.get('college1', '') 
 		year1 = request.POST.get('year1', '') 
-		degree2 = request.POST.get('degree2', '') 
+		Intermediate = request.POST.get('Intermediate', '') 
 		college2 = request.POST.get('college2', '') 
 		year2 = request.POST.get('year2', '') 
 		School = request.POST.get('School', '') 
@@ -55,7 +55,7 @@ def gen_resume(request):
 											'School':School, 'year3':year3, 
 											'Board':Board, 'lang1':lang1, 
 											'lang2':lang2, 'lang3':lang3, 
-											'degree2':degree2, 'college2':college2, 
+											'Intermediate':Intermediate, 'college2':college2, 
 											'year2':year2, 'project1':project1, 
 											'durat1':durat1, 'desc1':desc1, 
 											'project2':project2, 'durat2':durat2, 
